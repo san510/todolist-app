@@ -16,6 +16,23 @@
 <table>
 </table>
 
+## 実行方法
+
+```bash
+## どちらも同Projectで実行可能です。
+
+# Mock Server
+$ npm run json-server
+
+# TodoList App
+$ npm start
+```
+
+## 開発環境
+
+- Visual Studio Code
+- CreateReact App
+
 ## 使用技術一覧
 
 **フロントエンド**
