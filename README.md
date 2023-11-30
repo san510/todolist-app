@@ -1,6 +1,7 @@
 # ToDo リストアプリケーション
 
-![todolistApp](https://github.com/san510/todolist-app/assets/47128979/dda53a69-0a30-42d9-9974-50a40644d1a8)
+![todolistApp](https://github.com/san510/todolist-app/blob/master/public/images/todolistApp.png)
+
 
 ## メイン機能の使い方
 
@@ -11,9 +12,9 @@
       <th style="text-align: center">フィルター切り替え</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/san510/todolist-app/assets/47128979/24537864-2120-4ef9-80e5-4bb102ddec3c" alt="Todo操作" /></td>
-    <td><img src="https://github.com/san510/todolist-app/assets/47128979/7ce1db8c-198a-4730-9182-f5a89b7e92e2" alt="並び替え" /></td>
-    <td><img src="https://github.com/san510/todolist-app/assets/47128979/f1abc322-5e85-44b5-b9c5-ca5de3ec42ca" alt="フィルター切り替え"/></td>
+    <td><img src="https://github.com/san510/todolist-app/blob/master/public/images/demo/TodoActions.gif" alt="Todo操作" /></td>
+    <td><img src="https://github.com/san510/todolist-app/blob/master/public/images/demo/Sort.gif" alt="並び替え" /></td>
+    <td><img src="https://github.com/san510/todolist-app/blob/master/public/images/demo/Filter.gif" alt="フィルター切り替え"/></td>
   </tr>  
 <table>
 </table>
