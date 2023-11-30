@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "task": "洗濯",
+      "id": "d3002085-e3f0-4fa0-b510-90e651f23312",
+      "isDone": false
+    },
+    {
+      "task": "ゴミ出し",
+      "id": "cb65600a-cfcc-475a-b645-acee640ad619",
+      "isDone": false
+    }
+  ]
+}

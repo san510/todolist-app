@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #717171;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.app .container {
+  flex: 0 1 600px;
+  background-color: #92b0d9;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.toolbar h2 {
+  font-size: 2rem;
+  flex-grow: 2;
+}
+.toolbar h3 {
+  font-size: 1.5rem;
+  flex-grow: 1;
+}
+.toolbar .toggle-buttons {
+  display: flex;
+  flex-grow: 1;
+}
+.toolbar .toggle-buttons button {
+  flex-grow: 1;
+  background-color: #92b0d9;
+  border: 1px solid rgba(0, 0, 0, 0.1215686275);
+  padding: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.toolbar .toggle-buttons button:hover {
+  background-color: #88a4cc;
+}
+.toolbar .toggle-buttons button.active {
+  background-color: #5877a3;
+  color: white;
+}
+
+.todo-list {
+  background-color: white;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+.todo-list ul {
+  list-style: none;
+  overflow: auto;
+  flex-grow: 1;
+}
+.todo-list .todo-card {
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1215686275);
+  align-items: center;
+  gap: 0.5rem;
+}
+.todo-list .todo-card .grip {
+  padding: 1rem;
+  cursor: grab;
+}
+.todo-list .todo-card input[type=checkbox] {
+  margin-right: 1rem;
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  cursor: pointer;
+  accent-color: #5877a3;
+}
+.todo-list .todo-card input[type=text] {
+  flex: 1;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+.todo-list .todo-card input[type=text]:focus {
+  outline: 2px solid #92b0d9;
+}
+.todo-list .todo-card input[type=text]:disabled {
+  background-color: inherit;
+}
+.todo-list .todo-card input[type=text].completed {
+  text-decoration: line-through;
+}
+.todo-list .todo-card .delete-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.add-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-form input[type=text] {
+  font-size: 1.5rem;
+  border: none;
+  padding: 1rem;
+  flex: 1;
+  margin-right: 0.5rem;
+}
+.add-form .add-todo {
+  cursor: pointer;
+  font-size: 3rem;
+}/*# sourceMappingURL=style.css.map */
